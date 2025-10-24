@@ -1,0 +1,100 @@
+---
+title: ""
+title-block: false
+lang: en
+format:
+  html:
+    theme: flatly
+    page-layout: full
+    toc: false
+    smooth-scroll: true
+    css: styles.css
+resources:
+  - headshot.jpg
+  - styles.css
+page-footer:
+  left: "UCW MBA | Vancouver, BC"
+  right: "© 2025 Jaime Arroyo"
+---
+
+::: {.hero}
+![Jaime Arroyo](headshot.jpg){.avatar alt="Jaime Arroyo"}
+
+<div class="title">Jaime Arroyo — MBA Portfolio</div>
+<div class="tagline">Operations, Customer Experience & Logistics</div>
+
+[LinkedIn](https://www.linkedin.com/in/jaime-arturo-arroyo-su-200089a7){.btn .btn-primary target=_blank rel=noopener}
+[Email](mailto:jaimearturo.arroyosu@myucwest.ca){.btn .btn-outline-light}
+:::
+
+## About
+Operations and customer-experience professional with hands-on roles in logistics (FedEx), sports & entertainment retail (Canucks), and telecom logistics coordination (Telmex). MBA candidate at University Canada West.
+
+### Highlights
+- Cross-functional coordination in logistics and event retail operations.
+- Cycle-time awareness, SLA follow-up, and dispatch communication.
+- MBA projects applying PM, analytics, and finance fundamentals.
+
+## Education
+- **MBA**, University Canada West — *In progress*, Vancouver, BC  
+- **Master’s in Quality Management**, Universidad Veracruzana — *2015–2017*, Veracruz, MX
+
+## Professional Experience
+### FedEx — Delivery Operations
+*Richmond, BC • 2024–Present*  
+- Safe & on-time delivery across assigned routes.  
+- Compliance with safety and customer-service standards.  
+- Coordination with dispatch for route changes, delivery windows, and PoD.
+
+### Canucks Entertainment — Retail & Event Operations
+*Vancouver, BC • 2024–Present*  
+- Supported high-volume event retail operations.  
+- Inventory receiving/restocking and POS activities.  
+- Brand standards during games and concerts; shift open/close and cash controls.
+
+### Telmex — Logistics Coordinator
+*Veracruz, MX • Feb 2017 – Sep 2024*  
+- Coordinated warehouse and last-mile flows; dispatch scheduling; SLA tracking.  
+- Implemented controls that **reduced annual spend** via route consolidation, vendor renegotiation, and inventory accuracy.
+
+## Selected MBA Projects
+- Process mapping & improvement (retail event ops).  
+- Basic financial modeling for project decisions (NPV/Payback).  
+- Analytics for demand, inventory, and route planning.
+
+## Key Skills
+<span class="skill-chip">Operations & logistics</span>
+<span class="skill-chip">Customer experience</span>
+<span class="skill-chip">Project scheduling (WBS/Gantt)</span>
+<span class="skill-chip">Process improvement</span>
+<span class="skill-chip">Financial basics</span>
+<span class="skill-chip">Excel / Google Sheets</span>
+<span class="skill-chip">Quarto / CI Pages</span>
+
+## Contact
+**Email:** <jaimearturo.arroyosu@myucwest.ca>  
+[Email me](mailto:jaimearturo.arroyosu@myucwest.ca){.btn .btn-primary}
+[LinkedIn](https://www.linkedin.com/in/jaime-arturo-arroyo-su-200089a7){.btn .btn-primary target=_blank rel=noopener}
+
+---
+
+<details>
+  <summary><strong>Appendix — LLM-Assisted Draft & Commentary</strong></summary>
+  <p><strong>LLM Disclosure.</strong> The initial outline/draft was generated with ChatGPT. I (Jaime Arroyo) reviewed and edited for accuracy, tone, and authenticity.</p>
+  <h3>A. LLM-Generated Draft (Initial Outline)</h3>
+  <ul>
+    <li><strong>Hero / Title:</strong> “Jaime Arroyo — MBA Portfolio”.</li>
+    <li><strong>Experience:</strong> FedEx, Canucks, Telmex.</li>
+    <li><strong>Skills:</strong> Ops, CX, project scheduling, process improvement, Excel/Sheets, Quarto.</li>
+  </ul>
+  <h3>B. Commentary: What Was Revised (and Why)</h3>
+  <ul>
+    <li><strong>Kept:</strong> Section order; clean phrasing.</li>
+    <li><strong>Revised:</strong> Facts, dates, and duties for accuracy.</li>
+  </ul>
+  <h3>References</h3>
+  <ul>
+    <li>Quarto Documentation. (n.d.). <em>Quarto user guide</em>. https://quarto.org/docs/</li>
+    <li>OpenAI. (2025). <em>ChatGPT</em> [Large language model]. https://chat.openai.com/</li>
+  </ul>
+</details>

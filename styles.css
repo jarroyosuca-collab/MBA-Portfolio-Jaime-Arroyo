@@ -1,0 +1,92 @@
+/* ====== Fondo general (oscuro con degradado sutil) ====== */
+body {
+  background: radial-gradient(1200px 800px at 15% 10%, #293241 0%, #1f2937 35%, #111827 100%);
+  color: #e5e7eb; /* texto claro */
+}
+
+/* Área principal sin caja blanca */
+main.content { background: transparent; }
+
+/* ====== HERO ====== */
+.hero {
+  text-align: center;
+  padding: 3.2rem 1rem 2.2rem;
+  background: linear-gradient(135deg, rgba(14,165,233,.28) 0%, rgba(99,102,241,.22) 100%);
+  border-radius: 1rem;
+  margin: 0 0 1.2rem 0;
+  border: 1px solid rgba(255,255,255,.08);
+}
+
+.hero .avatar {
+  width: 180px; height: 180px; border-radius: 50%;
+  object-fit: cover; object-position: center;
+  border: 3px solid rgba(255,255,255,.85);
+  box-shadow: 0 6px 20px rgba(0,0,0,.35);
+  margin-bottom: 1rem;
+}
+
+.hero .title {
+  font-size: clamp(1.8rem, 3.2vw, 2.6rem);
+  font-weight: 800;
+  letter-spacing: .3px;
+  color: #fff;
+  margin: .2rem 0 .35rem;
+}
+
+.hero .tagline {
+  color: #e5e7eb;
+  opacity: .95;
+  font-size: 1.05rem;
+  margin-bottom: 1rem;
+}
+
+/* Botones del hero sobre fondo oscuro */
+.hero a.btn { margin: .25rem; }
+.hero .btn-primary { background: #0ea5e9; border-color:#0ea5e9; }
+.hero .btn-outline-light { color:#fff; border-color:#fff; }
+
+/* ====== Títulos y listas en el resto de la página ====== */
+main.content h2 { margin-top: 2.2rem; margin-bottom: .8rem; color:#f3f4f6; }
+main.content h3 { margin-top: 1.2rem; margin-bottom: .4rem; color:#f3f4f6; }
+main.content p, main.content li { color:#e5e7eb; }
+main.content ul { margin-top: .35rem; margin-bottom: .9rem; }
+main.content li { margin-bottom: .35rem; }
+
+/* ====== Tarjetas claras para contenido (mejor legibilidad) ====== */
+.section-card {
+  background: #ffffff;
+  color: #111827;
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: .9rem;
+  padding: 1rem 1.1rem;
+  box-shadow: 0 10px 24px rgba(0,0,0,.18);
+  margin-bottom: 1rem;
+}
+
+/* Chips de skills */
+.skill-chip {
+  display:inline-block;
+  padding:.28rem .55rem;
+  border:1px solid rgba(255,255,255,.22);
+  border-radius:999px;
+  margin:.18rem .25rem;
+  font-size:.9rem;
+  color:#e5e7eb;
+  background: rgba(255,255,255,.06);
+}
+
+/* Bandas de color suaves para secciones */
+.section-band {
+  background: rgba(14,165,233,.08);
+  border: 1px solid rgba(14,165,233,.18);
+  border-radius: .9rem;
+  padding: 1rem 1.1rem;
+  margin: 1.2rem 0;
+}
+.section-band.alt {
+  background: rgba(99,102,241,.08);
+  border-color: rgba(99,102,241,.18);
+}
+
+/* Footer sutil */
+.footer p { margin: .2rem 0; font-size: .9rem; opacity: .75; }
